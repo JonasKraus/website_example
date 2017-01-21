@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script src="js/index.js"></script>
+</head>
+<body>
+
+
+    <label for="text_box_set">Save:</label>
+    <input type="text" id="text_box_set" name="text_box_set" required="required" />
+    <input type="button" value="save" id="save_text" onclick="saveText()"/>
+    <label for="autoload_text">autoload:</label>
+    <input type="checkbox" value="autoload" name="autoload_text" id="autoload_text" />
+    <div id="result_set"></div>
+
+    <input type="button" value="load" id="load_text" onclick="loadText()"/>
+    <div id="result_get"></div>
+    <table id="result_table">
+        <tbody id ="result_table_body">
+        </tbody>
+    </table>
+
+</body>
+</html>
